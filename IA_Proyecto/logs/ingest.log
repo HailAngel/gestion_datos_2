@@ -1,0 +1,16 @@
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: 'Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: 'Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: 'Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: '../Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: '../Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: '../Telco.csv'
+ERROR:root:Error en ingesta: [Errno 2] No such file or directory: '../Telco.csv'
+INFO:root:Archivo copiado correctamente
+INFO:root:Archivo copiado correctamente

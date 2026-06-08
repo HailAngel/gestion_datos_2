@@ -26,6 +26,7 @@ DB_USER=telco_user
 DB_PASSWORD=telco_pass
 
 # 1. Instalar dependencias
+curl -sS https://bootstrap.pypa.io/get-pip.py | python3
 pip install -r requirements.txt
 
 # 2. Verificar conexión a PostgreSQL (opcional)

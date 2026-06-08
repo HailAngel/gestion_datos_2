@@ -1,13 +1,18 @@
 {
   "name": "Entorno de Arquitectura TI",
-  "build": { "dockerfile": "Dockerfile" },
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
   "customizations": {
     "vscode": {
       "extensions": [
-        "ms-python.python", 
-        "ritwickdey.LiveServer"
+        "ms-python.python",
+        "ritwickdey.LiveServer",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg"
       ]
     }
   },
-  "postCreateCommand": "pip install pandas"
+  "postCreateCommand": "pip install pandas psycopg2-binary sqlalchemy",
+  "forwardPorts": [5432]
 }

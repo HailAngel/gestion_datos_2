@@ -24,3 +24,9 @@ DB_NAME=telco_db
 DB_USER=telco_user
 
 DB_PASSWORD=telco_pass
+
+# 1. Instalar dependencias
+pip install -r requirements.txt
+
+# 2. Verificar conexión a PostgreSQL (opcional)
+psql -h localhost -U telco_user -d telco_db -c "\dt"

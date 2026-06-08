@@ -10,11 +10,12 @@
         "ritwickdey.LiveServer",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-pg"
-      ]
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python"
+      }
     }
   },
   "postCreateCommand": "pip install -r requirements.txt",
-  "forwardPorts": [
-    5432
-  ]
+  "forwardPorts": [5432]
 }

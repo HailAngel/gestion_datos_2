@@ -13,6 +13,8 @@
       ]
     }
   },
-  "postCreateCommand": "pip install pandas psycopg2-binary sqlalchemy",
-  "forwardPorts": [5432]
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [
+    5432
+  ]
 }
